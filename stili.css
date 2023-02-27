@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'Marlowe';
+    src: url(Marlowe/Marlowe.ttf) format('ttf');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pagina {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    font-family: 'Marlowe';
+    font-size: 20px;
+    background-color: #e8eff3;
+    color: #212933;
+  }
+  
+  .sezione {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-bottom: 40px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: #49596F;
+    color: #e8eff3;
+    font-size: 1.2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #49596F;
+    margin-bottom: 20px ;
+  }
+
+  .item-rif {
+    padding: 10px 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+  }
+
+  a {
+    text-decoration: none;
+    color:#49596F;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    padding: 10px 40px;
+    /* border: 1px solid red; */
+  }
+
+  
+
+  h2 {
+    font-weight: normal;
+    font-size: 2.5em;
+    border-bottom: 1.5px solid #212933;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+
+  .footer {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #49596F;
+  }
+
+  .footer p {
+    padding: 10px;
+    color: #e8eff3;
+  }
+
+  .immagine1 {
+    /* border: 1px solid red; */
+    /* width: 100px; */
+    /* display: block; */
+    position: relative;
+    top: 20px;
+  }
+
+  .immagine3 {
+    /* border: 1px solid red; */
+    position: relative;
+    top: 10px;
+  }
+
+  .immagine4 {
+    /* border: 1px solid red; */
+    position: relative;
+    top: 5px;
+  }
+
+  button {
+    background-color: #e8eff3;
+    color: #212933;
+    padding: 0px 10px;
+    text-align: center;
+    border: 1px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+  }
+
+  button:active {
+    background-color: #212933;
+    color: #e8eff3;
+  }
+
+  .contact {
+    flex: content;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+  }
+
+  /* Mobile Styles */
+@media only screen and (max-width: 420px) {
+  
+  /* .menu {
+    background-color: red;
+  } */
+
+  .footer{
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact {
+    justify-content: space-between;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 421px) and (max-width: 960px) {
+  .item-rif {
+    flex-direction: row;
+    width: 50%;
+  }
+
+  /* .menu{
+    background-color: yellow;
+  } */
+
+  .contact {
+    flex: content;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+  }
+
+  .footer {
+    display: flex;
+    width: 100%;
+    /* align-items:stretch; */
+    padding: 10px;
+    background-color: #49596F;
+    /* border: 1px solid red; */
+  }
+}
+
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .item-rif {
+    flex-direction: row;
+    width: 33%;
+    padding: 10px;
+  }
+
+  .sezione {
+    justify-content: space-around;
+    flex-shrink: 1;
+  }
+
+  .pagina {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .menu{
+    /* background-color: green; */
+    width: 960px;
+    position: relative;
+  }
+
+  .header {
+    margin-top: 0;
+  }
+
+}

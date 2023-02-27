@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <title>Studio Theorema</title>
+    <link rel="stylesheet" href="stili.css">
+    <link rel="icon" href="favicon.ico.png">
+</head>
+<body>
+    
+    <div class="pagina">
+
+        <div class="menu">
+            <div>studio theorema</div>
+            <div>▾</div>
+        </div>
+        
+        <div class="header">
+            <div class="logo"><img src="immagini/cigna sfondo blu.jpeg" alt="Studio Theorema"></div>
+        </div>
+
+        <div class="sezione info">
+            <h2>chi siamo</h2>
+            
+            <div class="presentazione">
+                <p>Siamo una giovane azienda che si propone di offrire servizi velocemente e a prezzi vantaggiosi</p>
+            
+                <p>Devi registrare un contratto d’affitto? Ti serve consulenza per la redazione dello stesso? Devi presentare una dichiarazione di successione e ti serve aiuto?</p>
+    
+                <p>Chiedi un preventivo e scoprirai la nostra professionalità a prezzi modici</p></div>
+        </div>
+
+        <div class="sezione info">
+            <h2>a chi ci rivolgiamo</h2>
+
+            <p>Ci rivolgiamo a privati, imprese, ma anche a dottori commercialisti, ragionieri, consulenti fiscali, intermediari immobiliari, Centri Elaborazione Dati e altri professionisti del settore per una collaborazione complementare</p>
+        </div>
+
+        <div class="sezione riferimenti">
+            <h2 id="servizi">i nostri servizi</h2>
+            <!-- <div class="item-rif">
+                <img src="immagini/icona-contabilità.png">
+                <p>Tenuta contabilità forfettari</p>
+            </div> -->
+
+            <div class="item-rif">
+                <div class="immagine1"><a href="servizi/contratti-affitto.html"><img src="immagini/icona-contratto.png"></a></div>
+                <p><a href="servizi/contratti-affitto.html">Redazione e registrazione di contratti d'affitto</a></p>
+            </div>
+            
+            <div class="item-rif">
+                <div class="immagine2"><a href="servizi/pratiche-successione.html"><img src="immagini/icona-successione.png"></a></div>
+                <p><a href="servizi/pratiche-successione.html">Pratiche di successione</a></p>
+            </div>
+        </div>
+
+        <div class="sezione riferimenti">
+            <h2 id="articoli">leggi i nostri articoli</h2>
+            <div class="item-rif">
+                <div class="immagine3"><a href="articoli/fatturazione-elettronica.html"><img src="immagini/icona-fatturazione.png"></a></div>
+                <p><a href="articoli/fatturazione-elettronica.html">Fatturazione elettronica nel 2019, siamo pronti?</a></p>
+            </div>
+
+            <div class="item-rif">
+                <div class="immagine4"><a href="articoli/scheda-carburanti.html"><img src="immagini/icona-carburante.png"></a></div>
+                <p><a href="articoli/scheda-carburanti.html">Scheda carburante: la fine di un'epoca</a></p>
+            </div>
+        </div>
+
+        <div class="sezione">
+            <h2 id="contatti">contattaci</h2>
+            <div class="item-rif contact">
+                <img src="immagini/icona-telefono.png">
+                <p id="num">351 368 90 40</p>
+                <button onclick="copiaNum()">copia</button>
+            </div>
+            <div class="item-rif contact">
+                <img src="immagini/icona-email.png">
+                <p id="ema">stheorema@gmail.com</p>
+                <button onclick="copiaEma()">copia</button>
+            </div>
+
+            <script>
+                function copiaNum() {
+                    navigator.clipboard.writeText("+393513689040");
+                }
+            </script>
+
+            <script>
+                function copiaEma() {
+                    navigator.clipboard.writeText("stheorema@gmail.com");
+                }
+            </script>
+    
+            
+        </div>
+            
+        <div class="sezione footer">
+            <div class="logo"><img src="immagini/cigna sfondo blu.jpeg" alt="Studio Theorema"></div>
+            
+            <div>
+                <p>Pratiche fiscali e affini <br> 
+                di Luigi Alessandro Cignarelli</p>
+                <p>Via Zama 1 - 20138 <br>
+                Milano</p>
+            </div>  
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
