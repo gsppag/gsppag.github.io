@@ -110,3 +110,30 @@
     width: 200px;
     margin: 20px auto;
   }
+  
+   /* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+  .sezione {
+    justify-content: space-around;
+    flex-shrink: 1;
+  }
+
+  .footer {
+    flex-direction: row;
+  }
+
+  .pagina {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .menu{
+    /* background-color: green; */
+    width: 960px;
+    position: relative;
+  }
+
+ 
+}
