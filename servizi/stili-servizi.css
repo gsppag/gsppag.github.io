@@ -1,6 +1,9 @@
 @font-face {
     font-family: 'Marlowe';
-    src: url(Marlowe/Marlowe.ttf) format('ttf');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../Marlowe/Marlowe.ttf') format('truetype');
   }
 
 * {
@@ -13,7 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     /* border: 5px solid green; */
-    font-family: 'Marlowe';
+    font-family: 'Marlowe', Helvetica, sans-serif;
     font-size: 18px;
     background-color: #e8eff3;
     color: #212933;
