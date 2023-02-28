@@ -164,6 +164,17 @@
   .footer {
     flex-direction: row;
   }
+    
+     .pagina {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .menu{
+    /* background-color: green; */
+    width: 960px;
+    position: relative;
+  }
 
  
 }
