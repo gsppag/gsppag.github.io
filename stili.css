@@ -1,6 +1,9 @@
 @font-face {
     font-family: 'Marlowe';
-    src: url(Marlowe/Marlowe.ttf) format('ttf');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Marlowe'), url('Marlowe/Marlowe.ttf') format('ttf');
   }
 
 * {
